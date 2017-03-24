@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+
+	<div class="display-1 well well-lg">
+<h1 style="text-align:center">@Umbraco.Field("projectsTitle")</h1>
+@Umbraco.Field("projectsBodyText")
+</div>
+		
+<div class="display-1 well well-lg">
+<h2>All projects</h2>
+@Umbraco.RenderMacro("ProjectsDiplsayAll")
+ </div>

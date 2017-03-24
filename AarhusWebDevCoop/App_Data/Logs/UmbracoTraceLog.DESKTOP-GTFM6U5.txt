@@ -1,0 +1,1437 @@
+﻿ 2017-03-24 00:00:29,659 [P6760/D2/T93] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.presentation.members.EditMemberGroup.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_members_editmembergroup_aspx.ProcessRequest(HttpContext context) in c:\Users\Spas Velinov\AppData\Local\Temp\Temporary ASP.NET Files\vs\c0a52052\d57112d8\App_Web_editmembergroup.aspx.590a8cbd.qftwimzs.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-03-24 00:00:35,126 [P6760/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 00:00:35,126 [P6760/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 00:00:36,142 [P6760/D2/T51] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.presentation.members.EditMemberGroup.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_members_editmembergroup_aspx.ProcessRequest(HttpContext context) in c:\Users\Spas Velinov\AppData\Local\Temp\Temporary ASP.NET Files\vs\c0a52052\d57112d8\App_Web_editmembergroup.aspx.590a8cbd.qftwimzs.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-03-24 00:02:10,542 [P6760/D2/T93] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1183
+ 2017-03-24 00:02:10,640 [P6760/D2/T92] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1183
+ 2017-03-24 00:02:10,958 [P6760/D2/T93] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1183
+ 2017-03-24 00:03:53,611 [P6760/D2/T77] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1184
+ 2017-03-24 00:03:53,635 [P6760/D2/T87] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1184
+ 2017-03-24 00:03:53,694 [P6760/D2/T92] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1184
+ 2017-03-24 00:04:07,181 [P6760/D2/T89] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username john from IP address ::1
+ 2017-03-24 00:06:09,753 [P6760/D2/T99] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 00:06:09,797 [P6760/D2/T99] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 00:06:09,878 [P6760/D2/T99] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 00:06:23,286 [P6760/D2/T89] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username victor from IP address ::1
+ 2017-03-24 00:08:04,665 [P6760/D2/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 00:08:04,665 [P6760/D2/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 00:12:27,018 [P6760/D2/T85] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 00:13:26,339 [P6760/D2/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Completed Projects' with Id '1171' has been published.
+ 2017-03-24 00:13:30,497 [P6760/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 00:13:30,514 [P6760/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 00:13:31,638 [P6760/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Completed Projects' with Id '1171' has been published.
+ 2017-03-24 00:13:35,671 [P6760/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 00:13:35,705 [P6760/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 00:13:37,124 [P6760/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Completed Projects' with Id '1171' has been published.
+ 2017-03-24 00:13:41,155 [P6760/D2/T107] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 00:13:41,168 [P6760/D2/T107] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 00:19:33,664 [P6760/D2/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 00:19:33,664 [P6760/D2/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 00:19:58,475 [P6760/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'test' with Id '0' has been published.
+ 2017-03-24 00:20:02,749 [P6760/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 00:20:02,766 [P6760/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 00:20:03,472 [P6760/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'test' with Id '1186' has been unpublished.
+ 2017-03-24 00:20:07,498 [P6760/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 00:20:07,503 [P6760/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 08:35:29,245 [P6860/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 08:35:29,427 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 08:35:29,491 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 64ms)
+ 2017-03-24 08:35:29,708 [P6860/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 08:35:29,724 [P6860/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 08:35:29,729 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 08:35:30,103 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 373ms)
+ 2017-03-24 08:35:30,633 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 08:35:30,636 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-03-24 08:35:30,639 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 08:35:30,644 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-24 08:35:30,656 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 08:35:30,678 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 22ms)
+ 2017-03-24 08:35:30,678 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 08:35:30,696 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 18ms)
+ 2017-03-24 08:35:31,058 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 08:35:31,059 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-03-24 08:35:31,060 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 08:35:31,061 [P6860/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-03-24 08:35:32,987 [P6860/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 08:35:34,014 [P6860/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 08:35:35,485 [P6860/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 08:35:35,770 [P6860/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 08:35:35,883 [P6860/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6853ms)
+ 2017-03-24 08:35:45,749 [P6860/D2/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 08:35:47,343 [P6860/D2/T9] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 08:35:47,393 [P6860/D2/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 08:35:47,834 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-24 08:35:47,835 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-03-24 08:35:49,321 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 08:35:49,325 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-24 08:35:55,015 [P6860/D2/T9] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 08:35:55,121 [P6860/D2/T9] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 08:35:56,725 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 08:35:56,727 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-03-24 08:35:56,871 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 08:35:56,872 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2017-03-24 08:35:56,946 [P6860/D2/T9] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 08:35:56,946 [P6860/D2/T9] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 08:35:58,512 [P6860/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 08:36:28,826 [P6860/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 08:36:41,919 [P6860/D2/T9] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 08:36:41,922 [P6860/D2/T9] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Spas logged in from IP address ::1
+ 2017-03-24 08:36:42,161 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 08:36:42,162 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-03-24 08:36:42,557 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-24 08:36:42,560 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2017-03-24 08:36:42,684 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 08:36:42,684 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 08:36:42,686 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 08:36:42,687 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-03-24 08:36:42,723 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 08:36:42,724 [P6860/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-03-24 08:36:50,351 [P6860/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-23 08:36:50
+ 2017-03-24 08:36:50,368 [P6860/D2/T11] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:37:50,383 [P6860/D2/T23] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:38:00,517 [P6860/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Professional Website Design is Alive and Well' with Id '1174' has been published.
+ 2017-03-24 08:38:04,696 [P6860/D2/T3] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 08:38:04,700 [P6860/D2/T3] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 08:38:50,398 [P6860/D2/T17] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:39:50,411 [P6860/D2/T17] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:40:29,711 [P6860/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 08:40:29,711 [P6860/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 08:40:50,422 [P6860/D2/T29] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:41:50,423 [P6860/D2/T17] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:42:50,435 [P6860/D2/T17] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:43:51,173 [P6860/D2/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:44:51,189 [P6860/D2/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:45:51,205 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:46:51,221 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:47:51,239 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:48:51,257 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:49:51,281 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:50:51,309 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:51:51,330 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:52:51,364 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:53:51,376 [P6860/D2/T44] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:54:51,393 [P6860/D2/T60] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:55:51,409 [P6860/D2/T73] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:56:12,349 [P6860/D2/T70] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: Spas, IP Address: ::1
+ 2017-03-24 08:56:51,431 [P6860/D2/T61] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:57:51,452 [P6860/D2/T70] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:58:51,472 [P6860/D2/T44] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 08:59:51,493 [P6860/D2/T60] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:00:51,514 [P6860/D2/T61] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:01:51,522 [P6860/D2/T9] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:02:51,540 [P6860/D2/T61] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:03:46,945 [P6860/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 09:03:46,945 [P6860/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Spas logged in from IP address ::1
+ 2017-03-24 09:03:46,996 [P6860/D2/T60] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 09:03:46,996 [P6860/D2/T60] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 09:03:51,542 [P6860/D2/T60] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:04:51,552 [P6860/D2/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:05:51,566 [P6860/D2/T81] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:06:51,580 [P6860/D2/T70] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:07:51,596 [P6860/D2/T84] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 09:08:47,419 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 09:08:47,419 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 09:08:47,419 [P6860/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 09:08:47,451 [P6860/D2/T61] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 09:08:47,451 [P6860/D2/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 09:08:47,451 [P6860/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 09:08:58,751 [P6860/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 09:08:58,776 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 09:08:58,785 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2017-03-24 09:08:58,833 [P6860/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 09:08:58,835 [P6860/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 09:08:58,841 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 09:08:59,137 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 297ms)
+ 2017-03-24 09:08:59,154 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 09:08:59,159 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2017-03-24 09:08:59,160 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 09:08:59,166 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-03-24 09:08:59,178 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 09:08:59,182 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+ 2017-03-24 09:08:59,183 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 09:08:59,189 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2017-03-24 09:08:59,222 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 09:08:59,228 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2017-03-24 09:08:59,229 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 09:08:59,234 [P6860/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 4ms)
+ 2017-03-24 09:09:10,631 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:10,632 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:10,753 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:10,753 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:11,756 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:11,756 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:12,756 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:12,757 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:13,759 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:13,759 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:14,761 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:d6e70240-c3ba-43e8-9f66-47369388ac22
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:14,761 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:17,521 [P6860/D2/T95] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Spas Velinov\AppData\Local\Temp\Temporary ASP.NET Files\vs\c0a52052\d57112d8\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-24 09:09:25,781 [P6860/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: DESKTOP-GTFM6U5, InitialCatalog: Aarhus3. Exception: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ClientConnectionId:77e3261a-bd45-4f4b-a688-5db082317156
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:09:25,781 [P6860/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2017-03-24 09:09:25,787 [P6860/D3/T1] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Umbraco.Core.Exceptions.UmbracoStartupFailedException: Umbraco cannot start. A connection string is configured but Umbraco cannot connect to the database.
+   at Umbraco.Core.CoreBootManager.EnsureDatabaseConnection()
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+ 2017-03-24 09:09:35,798 [P6860/D3/T11] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 09:09:35,799 [P6860/D3/T11] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 09:09:45,885 [P6860/D3/T11] ERROR UmbracoExamine.DataServices.UmbracoContentService - EXCEPTION OCCURRED reading GetAllUserPropertyNames
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Aarhus3" requested by the login. The login failed.
+Login failed for user 'DESKTOP-GTFM6U5\Spas Velinov'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+ClientConnectionId:8e092265-9fff-46e9-8f6f-67b4bcb2b139
+Error Number:4060,State:1,Class:11
+ 2017-03-24 09:10:01,293 [P6860/D4/T89] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 09:10:01,310 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 09:10:01,321 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-03-24 09:10:01,359 [P6860/D4/T89] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 09:10:01,360 [P6860/D4/T89] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 09:10:01,365 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 09:10:01,427 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 62ms)
+ 2017-03-24 09:10:01,511 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 09:10:01,512 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-24 09:10:01,513 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 09:10:01,514 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-03-24 09:10:01,523 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 09:10:01,529 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-03-24 09:10:01,530 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 09:10:01,534 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 09:10:01,629 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 09:10:01,630 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-03-24 09:10:01,630 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 09:10:01,631 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-03-24 09:10:02,342 [P6860/D4/T89] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 09:10:02,641 [P6860/D4/T89] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 09:10:02,710 [P6860/D4/T89] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 09:10:02,774 [P6860/D4/T89] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 09:10:02,795 [P6860/D4/T89] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2017-03-24 09:10:02,806 [P6860/D4/T89] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 09:10:02,807 [P6860/D4/T89] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 09:10:02,809 [P6860/D4/T89] INFO  umbraco.content - Loading content from database...
+ 2017-03-24 09:10:03,281 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 09:10:03,345 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 09:10:03,447 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 101ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 09:10:03,447 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 09:10:03,468 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 09:10:03,480 [P6860/D4/T95] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1183
+ 2017-03-24 09:10:03,542 [P6860/D4/T95] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1184
+ 2017-03-24 09:10:03,543 [P6860/D4/T95] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 09:10:03,697 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 09:10:04,553 [P6860/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 856ms)
+ 2017-03-24 09:10:04,771 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 1302ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,771 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,892 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 120ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,892 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,908 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,923 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 15ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,923 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,926 [P6860/D4/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 2ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 09:10:04,936 [P6860/D4/T89] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3700ms)
+ 2017-03-24 09:10:05,054 [P6860/D4/T70] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 09:10:05,441 [P6860/D4/T70] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 09:10:05,443 [P6860/D4/T70] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 09:10:07,285 [P6860/D4/T83] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:10:07,291 [P6860/D4/T83] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:10:09,021 [P6860/D4/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 09:10:09,026 [P6860/D4/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 5ms)
+ 2017-03-24 09:10:09,159 [P6860/D4/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 09:10:09,164 [P6860/D4/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 5ms)
+ 2017-03-24 09:10:12,466 [P6860/D4/T88] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 09:10:16,041 [P6860/D3/T11] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+
+_shutDownMessage=Initialization Error
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
+   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.TimerQueue.AppDomainTimerCallback()
+ 2017-03-24 09:10:19,922 [P6860/D4/T70] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 09:10:23,889 [P6860/D4/T93] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 09:10:35,830 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 09:10:35,835 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 5ms)
+ 2017-03-24 09:10:35,871 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 09:10:35,879 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 8ms)
+ 2017-03-24 09:10:35,890 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 09:10:35,890 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 09:10:35,893 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 09:10:35,899 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 6ms)
+ 2017-03-24 09:10:35,911 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-24 09:10:35,919 [P6860/D4/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 8ms)
+ 2017-03-24 09:10:56,922 [P6860/D4/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-24 09:10:56,931 [P6860/D4/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 9ms)
+ 2017-03-24 09:11:05,243 [P6860/D4/T95] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-23 09:11:05
+ 2017-03-24 09:11:06,554 [P6860/D4/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:11:10,730 [P6860/D4/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:11:10,734 [P6860/D4/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:11:42,938 [P6860/D4/T75] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 09:11:42,938 [P6860/D4/T75] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 09:13:46,217 [P6860/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:13:50,349 [P6860/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:13:50,353 [P6860/D4/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:14:38,095 [P6860/D4/T78] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 09:15:34,731 [P6860/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-24 09:15:53,650 [P6860/D4/T77] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-03-24 09:15:53,650 [P6860/D4/T77] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-03-24 09:23:10,764 [P6860/D4/T82] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username victor from IP address ::1
+ 2017-03-24 09:25:16,184 [P6860/D4/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:25:20,293 [P6860/D4/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:25:20,296 [P6860/D4/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:34:22,149 [P6860/D4/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:34:26,419 [P6860/D4/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:34:26,423 [P6860/D4/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:35:26,497 [P6860/D4/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:35:30,687 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:35:30,700 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:37:02,741 [P6860/D4/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:37:06,922 [P6860/D4/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:37:06,940 [P6860/D4/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:37:30,561 [P6860/D4/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:37:34,606 [P6860/D4/T96] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:37:34,636 [P6860/D4/T96] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:38:05,820 [P6860/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:38:09,947 [P6860/D4/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:38:09,985 [P6860/D4/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:38:15,107 [P6860/D4/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:38:19,224 [P6860/D4/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:38:19,285 [P6860/D4/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:38:27,623 [P6860/D4/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:38:31,674 [P6860/D4/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:38:31,709 [P6860/D4/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:38:44,780 [P6860/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:38:48,923 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:38:48,928 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:39:38,321 [P6860/D4/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:39:42,404 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:39:42,422 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:39:57,689 [P6860/D4/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:40:01,790 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:40:01,847 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:40:26,570 [P6860/D4/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:40:30,623 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:40:30,630 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:40:38,709 [P6860/D4/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:40:42,746 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:40:42,878 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:40:51,206 [P6860/D4/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:40:55,310 [P6860/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:40:55,318 [P6860/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:41:07,951 [P6860/D4/T58] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:41:12,151 [P6860/D4/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:41:12,188 [P6860/D4/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:42:11,296 [P6860/D4/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:42:15,505 [P6860/D4/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:42:15,533 [P6860/D4/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:42:27,125 [P6860/D4/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:42:31,155 [P6860/D4/T90] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:42:31,177 [P6860/D4/T90] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:43:19,967 [P6860/D4/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:43:24,064 [P6860/D4/T90] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:43:24,086 [P6860/D4/T90] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:43:41,943 [P6860/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 09:43:46,006 [P6860/D4/T90] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:43:46,036 [P6860/D4/T90] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:46:14,061 [P6860/D4/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'iPhones could get cheaper in India as Apple gears up to manufacture 6, 6s, SE locally' with Id '0' has been published.
+ 2017-03-24 09:46:18,246 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:46:18,284 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:47:05,608 [P6860/D4/T96] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Find a Coding Buddy to Make Learning Easier and More Fun' with Id '1172' has been published.
+ 2017-03-24 09:47:09,685 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:47:09,716 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:49:05,413 [P6860/D4/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create an Exceptional Customer Journey With Your Website' with Id '1173' has been unpublished.
+ 2017-03-24 09:49:09,481 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:49:09,521 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:49:31,990 [P6860/D4/T96] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dear developers, it’s time for a user upgrade' with Id '0' has been published.
+ 2017-03-24 09:49:36,046 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:49:36,065 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:49:50,894 [P6860/D4/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Find a Coding Buddy to Make Learning Easier and More Fun' with Id '1172' has been published.
+ 2017-03-24 09:49:50,895 [P6860/D4/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'iPhones could get cheaper in India as Apple gears up to manufacture 6, 6s, SE locally' with Id '1196' has been published.
+ 2017-03-24 09:49:50,895 [P6860/D4/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Professional Website Design is Alive and Well' with Id '1174' has been published.
+ 2017-03-24 09:49:50,895 [P6860/D4/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dear developers, it’s time for a user upgrade' with Id '1197' has been published.
+ 2017-03-24 09:49:55,043 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:49:55,073 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:57:29,005 [P6860/D4/T74] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 09:58:19,517 [P6860/D4/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Firefox OS' with Id '1178' has been published.
+ 2017-03-24 09:58:23,722 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:58:23,733 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:59:00,574 [P6860/D4/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'AngularJS' with Id '1176' has been published.
+ 2017-03-24 09:59:04,709 [P6860/D4/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:59:04,714 [P6860/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:59:34,077 [P6860/D4/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boostrap' with Id '1175' has been published.
+ 2017-03-24 09:59:38,268 [P6860/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:59:38,278 [P6860/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 09:59:50,522 [P6860/D4/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ember.js' with Id '1177' has been published.
+ 2017-03-24 09:59:54,594 [P6860/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 09:59:54,622 [P6860/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:00:40,062 [P6860/D4/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ember.js' with Id '1177' has been published.
+ 2017-03-24 10:00:44,241 [P6860/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:00:44,245 [P6860/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:01:19,018 [P6860/D4/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boostrap' with Id '1175' has been published.
+ 2017-03-24 10:01:23,043 [P6860/D4/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:01:23,075 [P6860/D4/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:01:44,935 [P6860/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'AngularJS' with Id '1176' has been published.
+ 2017-03-24 10:01:49,038 [P6860/D4/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:01:49,075 [P6860/D4/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:02:03,869 [P6860/D4/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Firefox OS' with Id '1178' has been published.
+ 2017-03-24 10:02:07,910 [P6860/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:02:07,930 [P6860/D4/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:08:45,534 [P6860/D4/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:08:49,731 [P6860/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:08:49,739 [P6860/D4/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:09:13,794 [P6860/D4/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:09:17,826 [P6860/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:09:17,843 [P6860/D4/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:09:35,218 [P6860/D4/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:09:39,294 [P6860/D4/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:09:39,312 [P6860/D4/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:10:00,976 [P6860/D4/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:10:05,081 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:10:05,085 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:10:12,245 [P6860/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:10:16,325 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:10:16,341 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:10:23,630 [P6860/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:10:27,774 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:10:27,783 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:10:35,297 [P6860/D4/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:10:39,451 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:10:39,471 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:10:49,223 [P6860/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1164' has been published.
+ 2017-03-24 10:10:53,264 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:10:53,270 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:11:15,500 [P6860/D4/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Completed Projects' with Id '1171' has been published.
+ 2017-03-24 10:11:19,598 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:11:19,624 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:11:43,751 [P6860/D4/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Completed Projects' with Id '1171' has been unpublished.
+ 2017-03-24 10:11:47,847 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:11:47,907 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:12:00,381 [P6860/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Initiated Projects' with Id '1170' has been unpublished.
+ 2017-03-24 10:12:04,406 [P6860/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 10:12:04,434 [P6860/D4/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 10:23:45,575 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 10:23:45,575 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 10:23:45,578 [P6860/D4/T78] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 10:23:45,580 [P6860/D4/T4] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 10:23:45,582 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 10:23:45,582 [P6860/D4/T36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 10:23:45,582 [P6860/D4/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 10:23:45,583 [P6860/D4/T47] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 10:23:45,613 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 10:23:45,613 [P6860/D4/T4] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 10:23:45,613 [P6860/D4/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 10:24:14,166 [P6860/D5/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 10:24:14,182 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 10:24:14,191 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2017-03-24 10:24:14,224 [P6860/D5/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 10:24:14,226 [P6860/D5/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 10:24:14,230 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 10:24:14,288 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 57ms)
+ 2017-03-24 10:24:14,378 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 10:24:14,379 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-24 10:24:14,379 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 10:24:14,381 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-03-24 10:24:14,390 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 10:24:14,396 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-24 10:24:14,397 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 10:24:14,401 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 10:24:14,499 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 10:24:14,500 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-03-24 10:24:14,500 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 10:24:14,501 [P6860/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-03-24 10:24:15,308 [P6860/D5/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 10:24:15,555 [P6860/D5/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 10:24:15,623 [P6860/D5/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 10:24:15,641 [P6860/D4/T47] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-24 10:24:15,685 [P6860/D5/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 10:24:15,715 [P6860/D5/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1604ms)
+ 2017-03-24 10:24:16,607 [P6860/D5/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 10:24:16,823 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 10:24:16,823 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 10:24:16,825 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 10:24:16,895 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 10:24:16,896 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 10:24:16,896 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 10:24:16,897 [P6860/D5/T50] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 10:24:16,898 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 10:24:16,899 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 10:24:16,899 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 10:24:16,899 [P6860/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 10:24:46,935 [P6860/D5/T50] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-24 10:24:48,994 [P6860/D6/T70] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 10:24:49,005 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 10:24:49,014 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2017-03-24 10:24:49,030 [P6860/D6/T70] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 10:24:49,031 [P6860/D6/T70] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 10:24:49,037 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 10:24:49,087 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 49ms)
+ 2017-03-24 10:24:49,174 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 10:24:49,174 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-03-24 10:24:49,175 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 10:24:49,176 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-03-24 10:24:49,180 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 10:24:49,186 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-03-24 10:24:49,186 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 10:24:49,191 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 10:24:49,294 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 10:24:49,295 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-03-24 10:24:49,295 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 10:24:49,296 [P6860/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-03-24 10:24:50,073 [P6860/D6/T70] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 10:24:50,222 [P6860/D6/T70] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 10:24:50,288 [P6860/D6/T70] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 10:24:50,334 [P6860/D6/T70] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 10:24:50,352 [P6860/D6/T70] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1396ms)
+ 2017-03-24 10:24:51,452 [P6860/D6/T38] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 14:35:37,121 [P11708/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 14:35:37,137 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 14:35:37,168 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 31ms)
+ 2017-03-24 14:35:37,236 [P11708/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 14:35:37,237 [P11708/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 14:35:37,244 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 14:35:37,742 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 498ms)
+ 2017-03-24 14:35:37,755 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 14:35:37,759 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-03-24 14:35:37,760 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 14:35:37,764 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2017-03-24 14:35:37,775 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 14:35:37,779 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2017-03-24 14:35:37,780 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 14:35:37,784 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 14:35:37,842 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 14:35:37,846 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2017-03-24 14:35:37,846 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 14:35:37,850 [P11708/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 3ms)
+ 2017-03-24 14:36:00,493 [P11708/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 14:36:01,513 [P11708/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 14:36:01,610 [P11708/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 14:36:01,773 [P11708/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 14:36:01,799 [P11708/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 24735ms)
+ 2017-03-24 14:36:02,262 [P11708/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 14:36:02,546 [P11708/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 14:36:02,548 [P11708/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 14:36:02,789 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-24 14:36:02,798 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 8ms)
+ 2017-03-24 14:36:03,947 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 14:36:03,967 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 19ms)
+ 2017-03-24 14:36:04,092 [P11708/D2/T10] ERROR Umbraco.Core.Sync.DatabaseServerMessenger - DISTRIBUTED CACHE IS NOT UPDATED. Failed to execute instructions (id: 1225, instruction count: 1). Instruction is being skipped/ignored
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Core.Services.UserService.GetProfileById(Int32 id)
+   at Umbraco.Core.Services.EntityXmlSerializer.Serialize(IContentService contentService, IDataTypeService dataTypeService, IUserService userService, IContent content, Boolean deep)
+   at Umbraco.Core.Services.PackagingService.Export(IContent content, Boolean deep, Boolean raiseEvents)
+   at Umbraco.Core.Models.ContentExtensions.ToXml(IContent content)
+   at Umbraco.Web.Search.ExamineEvents.ReIndexForContent(IContent sender, Boolean isContentPublished)
+   at Umbraco.Web.Search.ExamineEvents.UnpublishedPageCacheRefresherCacheUpdated(UnpublishedPageCacheRefresher sender, CacheRefresherEventArgs e)
+   at Umbraco.Core.Cache.CacheRefresherBase`1.OnCacheUpdated(TInstanceType sender, CacheRefresherEventArgs args)
+   at Umbraco.Core.Cache.CacheRefresherBase`1.Refresh(Int32 id)
+   at Umbraco.Web.Cache.UnpublishedPageCacheRefresher.Refresh(Int32 id)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.RefreshByIds(Guid uniqueIdentifier, String jsonIds)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.NotifyRefreshers(IEnumerable`1 instructions, HashSet`1 processed)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions(IReadOnlyCollection`1 instructionBatch, CacheInstructionDto dto, HashSet`1 processed, Int32& lastId)
+ 2017-03-24 14:36:04,094 [P11708/D2/T10] INFO  Umbraco.Core.Sync.DatabaseServerMessenger - The current batch of instructions was not processed, app is shutting down
+ 2017-03-24 14:36:05,272 [P11708/D2/T10] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 14:36:05,294 [P11708/D2/T10] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 14:36:09,965 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 14:36:09,971 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 5ms)
+ 2017-03-24 14:36:10,130 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 14:36:10,136 [P11708/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 5ms)
+ 2017-03-24 14:36:11,089 [P11708/D2/T10] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 14:36:11,089 [P11708/D2/T10] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 14:36:14,071 [P11708/D2/T18] ERROR Umbraco.Core.Sync.DatabaseServerMessenger - DISTRIBUTED CACHE IS NOT UPDATED. Failed to execute instructions (id: 1226, instruction count: 1). Instruction is being skipped/ignored
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Core.Services.UserService.GetProfileById(Int32 id)
+   at Umbraco.Core.Services.EntityXmlSerializer.Serialize(IContentService contentService, IDataTypeService dataTypeService, IUserService userService, IContent content, Boolean deep)
+   at Umbraco.Core.Services.PackagingService.Export(IContent content, Boolean deep, Boolean raiseEvents)
+   at Umbraco.Core.Models.ContentExtensions.ToXml(IContent content)
+   at Umbraco.Web.Search.ExamineEvents.ReIndexForContent(IContent sender, Boolean isContentPublished)
+   at Umbraco.Web.Search.ExamineEvents.UnpublishedPageCacheRefresherCacheUpdated(UnpublishedPageCacheRefresher sender, CacheRefresherEventArgs e)
+   at Umbraco.Core.Cache.CacheRefresherBase`1.OnCacheUpdated(TInstanceType sender, CacheRefresherEventArgs args)
+   at Umbraco.Core.Cache.CacheRefresherBase`1.Refresh(Int32 id)
+   at Umbraco.Web.Cache.UnpublishedPageCacheRefresher.Refresh(Int32 id)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.RefreshByIds(Guid uniqueIdentifier, String jsonIds)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.NotifyRefreshers(IEnumerable`1 instructions, HashSet`1 processed)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions(IReadOnlyCollection`1 instructionBatch, CacheInstructionDto dto, HashSet`1 processed, Int32& lastId)
+ 2017-03-24 14:36:14,071 [P11708/D2/T18] INFO  Umbraco.Core.Sync.DatabaseServerMessenger - The current batch of instructions was not processed, app is shutting down
+ 2017-03-24 14:36:14,133 [P11708/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:36:52,462 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 14:36:52,462 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 14:36:52,467 [P11708/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 14:36:52,470 [P11708/D2/T10] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 14:36:52,486 [P11708/D2/T10] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 14:36:52,486 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 14:36:52,486 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 14:36:52,486 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 14:36:52,486 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 14:36:52,486 [P11708/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 14:36:52,486 [P11708/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 14:36:52,555 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 14:36:52,555 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 14:36:52,555 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 14:36:52,555 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 14:36:52,555 [P11708/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 14:36:52,555 [P11708/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 14:37:02,127 [P11708/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 14:37:02,148 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 14:37:02,157 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2017-03-24 14:37:02,199 [P11708/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 14:37:02,200 [P11708/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 14:37:02,206 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 14:37:02,271 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 65ms)
+ 2017-03-24 14:37:02,361 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 14:37:02,362 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-03-24 14:37:02,362 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 14:37:02,364 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-03-24 14:37:02,373 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 14:37:02,381 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-24 14:37:02,382 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 14:37:02,386 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 14:37:02,483 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 14:37:02,484 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-03-24 14:37:02,484 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 14:37:02,485 [P11708/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-03-24 14:37:03,228 [P11708/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 14:37:03,386 [P11708/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 14:37:03,465 [P11708/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 14:37:03,515 [P11708/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 14:37:03,527 [P11708/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1465ms)
+ 2017-03-24 14:37:04,439 [P11708/D3/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 14:37:04,743 [P11708/D3/T12] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 14:37:04,744 [P11708/D3/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 14:37:05,092 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 14:37:05,093 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-03-24 14:37:05,561 [P11708/D3/T12] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 14:37:05,564 [P11708/D3/T12] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 14:37:06,921 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 14:37:06,922 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-03-24 14:37:07,061 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 14:37:07,063 [P11708/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2017-03-24 14:37:08,549 [P11708/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-24 14:37:08,550 [P11708/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-03-24 14:37:08,874 [P11708/D3/T12] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1200
+ 2017-03-24 14:37:09,368 [P11708/D3/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:37:13,300 [P11708/D3/T18] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 14:37:13,311 [P11708/D3/T18] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 14:37:22,638 [P11708/D2/T12] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-24 14:37:22,923 [P11708/D3/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:37:31,721 [P11708/D3/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:37:37,253 [P11708/D3/T9] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Victor from IP address ::1
+ 2017-03-24 14:37:37,638 [P11708/D3/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:37:47,699 [P11708/D3/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:38:04,793 [P11708/D3/T14] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:38:04,851 [P11708/D3/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-23 14:38:04
+ 2017-03-24 14:38:19,987 [P11708/D3/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 14:38:19,989 [P11708/D3/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Spas logged in from IP address ::1
+ 2017-03-24 14:38:20,127 [P11708/D3/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:38:20,136 [P11708/D3/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 9ms)
+ 2017-03-24 14:38:20,215 [P11708/D3/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-24 14:38:20,227 [P11708/D3/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 11ms)
+ 2017-03-24 14:38:20,281 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:38:20,292 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 11ms)
+ 2017-03-24 14:38:20,310 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:38:20,310 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 14:38:20,316 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:38:20,327 [P11708/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 11ms)
+ 2017-03-24 14:39:04,802 [P11708/D3/T19] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:40:04,814 [P11708/D3/T32] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:41:04,831 [P11708/D3/T39] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:42:04,845 [P11708/D3/T40] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:43:04,862 [P11708/D3/T19] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:44:04,864 [P11708/D3/T19] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:44:36,675 [P11708/D3/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:44:48,308 [P11708/D3/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:44:50,144 [P11708/D3/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:44:51,814 [P11708/D3/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:44:55,613 [P11708/D3/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:00,842 [P11708/D3/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:01,881 [P11708/D3/T44] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 14:45:02,345 [P11708/D3/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:04,828 [P11708/D3/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:04,878 [P11708/D3/T33] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:45:07,067 [P11708/D3/T44] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:12,287 [P11708/D3/T26] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:18,355 [P11708/D3/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:26,709 [P11708/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:47,830 [P11708/D3/T35] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:45:49,303 [P11708/D3/T44] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:46:04,895 [P11708/D3/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:47:04,908 [P11708/D3/T36] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:47:52,301 [P11708/D3/T30] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Victor from IP address ::1
+ 2017-03-24 14:48:04,926 [P11708/D3/T34] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:48:06,318 [P11708/D3/T32] INFO  Umbraco.Web.Editors.AuthenticationController - User Spas from IP address ::1 has logged out
+ 2017-03-24 14:48:12,553 [P11708/D3/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Jane from IP address ::1
+ 2017-03-24 14:48:12,553 [P11708/D3/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Jane logged in from IP address ::1
+ 2017-03-24 14:48:20,527 [P11708/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:48:20,527 [P11708/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 14:49:04,938 [P11708/D3/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:50:04,950 [P11708/D3/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:51:04,955 [P11708/D3/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:52:04,972 [P11708/D3/T35] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:52:24,613 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 14:52:24,613 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 14:52:24,615 [P11708/D3/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 14:52:24,631 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 14:52:24,631 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 14:52:24,631 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 14:52:24,631 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 14:52:24,632 [P11708/D3/T36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 14:52:24,632 [P11708/D3/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 14:52:24,633 [P11708/D3/T44] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 14:52:24,634 [P11708/D3/T44] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 14:52:24,634 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 14:52:24,634 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 14:52:24,634 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 14:52:24,634 [P11708/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 14:52:24,634 [P11708/D3/T35] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 14:52:24,634 [P11708/D3/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 14:52:38,552 [P11708/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 14:52:38,569 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 14:52:38,576 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2017-03-24 14:52:38,612 [P11708/D4/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 14:52:38,613 [P11708/D4/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 14:52:38,619 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 14:52:38,849 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 230ms)
+ 2017-03-24 14:52:38,861 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 14:52:38,867 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2017-03-24 14:52:38,868 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 14:52:38,872 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2017-03-24 14:52:38,882 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 14:52:38,886 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2017-03-24 14:52:38,886 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 14:52:38,892 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2017-03-24 14:52:38,916 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 14:52:38,920 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2017-03-24 14:52:38,920 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 14:52:38,924 [P11708/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 3ms)
+ 2017-03-24 14:52:39,654 [P11708/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 14:52:39,794 [P11708/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 14:52:39,809 [P11708/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 14:52:39,858 [P11708/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 14:52:39,878 [P11708/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1379ms)
+ 2017-03-24 14:52:39,987 [P11708/D4/T31] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 14:52:40,109 [P11708/D4/T31] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 14:52:40,110 [P11708/D4/T31] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 14:52:40,458 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 14:52:40,468 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 9ms)
+ 2017-03-24 14:52:40,933 [P11708/D4/T31] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 14:52:40,936 [P11708/D4/T31] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 14:52:44,326 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 14:52:44,337 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2017-03-24 14:52:44,479 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 14:52:44,488 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 8ms)
+ 2017-03-24 14:52:47,976 [P11708/D4/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:52:54,587 [P11708/D4/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:52:54,655 [P11708/D3/T44] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Spas Velinov\AppData\Local\Temp\Temporary ASP.NET Files\vs\c0a52052\d57112d8\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-24 14:52:55,605 [P11708/D4/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:53:02,741 [P11708/D4/T44] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:53:11,464 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:53:11,471 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 7ms)
+ 2017-03-24 14:53:11,795 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:53:11,797 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-03-24 14:53:11,801 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:53:11,808 [P11708/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 7ms)
+ 2017-03-24 14:53:22,215 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:53:22,215 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 14:53:22,247 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:53:22,253 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 6ms)
+ 2017-03-24 14:53:22,270 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-24 14:53:22,285 [P11708/D4/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 14ms)
+ 2017-03-24 14:53:40,815 [P11708/D4/T38] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-23 14:53:40
+ 2017-03-24 14:53:40,819 [P11708/D4/T39] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:54:40,830 [P11708/D4/T43] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:55:40,847 [P11708/D4/T43] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:55147/umbraco").
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2017-03-24 14:57:41,386 [P10668/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.10 application starting on DESKTOP-GTFM6U5
+ 2017-03-24 14:57:41,402 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-24 14:57:41,413 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-03-24 14:57:41,456 [P10668/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-24 14:57:41,457 [P10668/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-24 14:57:41,465 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-24 14:57:41,525 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 60ms)
+ 2017-03-24 14:57:41,621 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-24 14:57:41,622 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-24 14:57:41,623 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-24 14:57:41,624 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-03-24 14:57:41,635 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-24 14:57:41,640 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-03-24 14:57:41,641 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-24 14:57:41,646 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-24 14:57:41,743 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-24 14:57:41,744 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-03-24 14:57:41,745 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-24 14:57:41,746 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-03-24 14:57:42,941 [P10668/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-24 14:57:43,390 [P10668/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-24 14:57:43,459 [P10668/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-24 14:57:43,553 [P10668/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-24 14:57:43,575 [P10668/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2017-03-24 14:57:43,588 [P10668/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-03-24 14:57:43,593 [P10668/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-24 14:57:43,594 [P10668/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2017-03-24 14:57:44,027 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 14:57:44,093 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 14:57:44,184 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 90ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-24 14:57:44,184 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,207 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,218 [P10668/D2/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1183
+ 2017-03-24 14:57:44,279 [P10668/D2/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1184
+ 2017-03-24 14:57:44,280 [P10668/D2/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1185
+ 2017-03-24 14:57:44,280 [P10668/D2/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1200
+ 2017-03-24 14:57:44,421 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-24 14:57:44,423 [P10668/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-03-24 14:57:44,604 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 396ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,604 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,727 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 123ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,727 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,756 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,778 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 21ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,778 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,783 [P10668/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 4ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-24 14:57:44,800 [P10668/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3472ms)
+ 2017-03-24 14:57:45,672 [P10668/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-03-24 14:57:46,283 [P10668/D2/T11] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.InvalidOperationException: The model class for content type with alias "message" is named "Message". CSharp does not support using the same name for the property with alias "message". Consider using an attribute to assign a different name to the property.
+   at Umbraco.ModelsBuilder.Building.Builder.Prepare() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 171
+   at Umbraco.ModelsBuilder.Building.Builder..ctor(IList`1 typeModels, ParseResult parseResult) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Building\Builder.cs:line 84
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GenerateModelsCode(IDictionary`2 ourFiles, IList`1 typeModels) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 345
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 283
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in C:\Users\Stéphane\Documents\Development\Umbraco\Zbu\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 152
+ 2017-03-24 14:57:46,285 [P10668/D2/T11] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-03-24 14:57:46,601 [P10668/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-24 14:57:46,603 [P10668/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-03-24 14:57:46,780 [P10668/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-24 14:57:46,781 [P10668/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2017-03-24 14:57:48,808 [P10668/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:57:48,823 [P10668/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 14:57:48,828 [P10668/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 14:57:57,786 [P10668/D2/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:57:58,010 [P10668/D2/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:58:04,869 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:58:04,870 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-03-24 14:58:04,896 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:58:04,898 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-03-24 14:58:04,914 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:58:04,915 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 14:58:04,918 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-24 14:58:04,919 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-03-24 14:58:04,937 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-24 14:58:04,939 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-03-24 14:58:11,543 [P10668/D2/T21] INFO  Umbraco.Web.Editors.AuthenticationController - User Jane from IP address ::1 has logged out
+ 2017-03-24 14:58:19,686 [P10668/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-24 14:58:19,702 [P10668/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 11ms)
+ 2017-03-24 14:58:19,718 [P10668/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Jane from IP address ::1
+ 2017-03-24 14:58:19,718 [P10668/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Jane logged in from IP address ::1
+ 2017-03-24 14:58:27,769 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-24 14:58:27,770 [P10668/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-24 14:58:46,069 [P10668/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-23 14:58:45
+ 2017-03-24 14:59:11,223 [P10668/D2/T16] INFO  Umbraco.Web.Editors.AuthenticationController - User Jane from IP address ::1 has logged out
+ 2017-03-24 14:59:16,574 [P10668/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Tim from IP address ::1
+ 2017-03-24 14:59:16,574 [P10668/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tim logged in from IP address ::1
+ 2017-03-24 14:59:22,948 [P10668/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'test' with Id '1203' has been published.
+ 2017-03-24 14:59:26,613 [P10668/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-24 14:59:27,080 [P10668/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 14:59:27,080 [P10668/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 14:59:35,320 [P10668/D2/T20] INFO  Umbraco.Web.Editors.AuthenticationController - User Tim from IP address ::1 has logged out
+ 2017-03-24 14:59:39,897 [P10668/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Spas from IP address ::1
+ 2017-03-24 14:59:39,897 [P10668/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Spas logged in from IP address ::1
+ 2017-03-24 14:59:49,626 [P10668/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'test' with Id '1203' has been unpublished.
+ 2017-03-24 14:59:53,679 [P10668/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-03-24 14:59:53,679 [P10668/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-24 15:00:54,464 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-24 15:00:54,464 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-24 15:00:54,464 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-24 15:00:54,464 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-24 15:00:54,479 [P10668/D2/T23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-24 15:00:54,479 [P10668/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-24 15:00:54,479 [P10668/D2/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-24 15:00:54,479 [P10668/D2/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-24 15:00:54,479 [P10668/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-24 15:00:54,479 [P10668/D2/T24] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-24 15:01:24,575 [P10668/D2/T12] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
